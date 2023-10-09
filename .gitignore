@@ -1,0 +1,64 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/upload-client/dist
+/upload-client/tmp
+/upload-client/out-tsc
+# Only exists if Bazel was run
+/upload-client/bazel-out
+
+# dependencies
+/upload-client/node_modules
+
+# profiling files
+/upload-clientchrome-profiler-events*.json
+
+# IDEs and editors
+/upload-client/.idea
+/upload-client/.project
+/upload-client/.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/upload-client/.angular/cache
+/upload-client/.sass-cache
+/upload-client/connect.lock
+/upload-client/coverage
+/upload-client/libpeerconnection.log
+/upload-client/npm-debug.log
+/upload-client/yarn-error.log
+/upload-client/testem.log
+/upload-client/typings
+
+# System Files
+/upload-client/.DS_Store
+/upload-client/Thumbs.db
+
+# Spring Boot project
+HELP.md
+/upload-server/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+### IntelliJ IDEA ###
+/upload-server/.idea
+/upload-server/*.iws
+/upload-server/*.iml
+/upload-server/*.ipr
+
+
+### VS Code ###
+/upload-server/.vscode/
